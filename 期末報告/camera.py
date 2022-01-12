@@ -14,7 +14,8 @@ def camera():
     while(True):
 
         try:
-
+            
+            # frame = cv2.imread("test.img")
             ret, frame = cap.read() #讀取影片分段
             if not ret:
                 print("No signal! Exiting..")
